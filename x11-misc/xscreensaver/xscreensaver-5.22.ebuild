@@ -74,17 +74,21 @@ src_prepare() {
 		"${FILESDIR}"/${PN}-5.20-conf264.patch \
 		"${FILESDIR}"/${PN}-5.20-test-passwd-segv-tty.patch \
 		"${FILESDIR}"/${PN}-5.20-tests-miscfix.patch
-		
-	if use branding; then
-		epatch \
-			"${FILESDIR}"/${PN}-5.20-logo.patch
-	fi
 
 	eautoconf
 	eautoheader
 }
 
 src_configure() {
+	
+  # remove original logo and add gentoo logo
+	if use branding; then
+		rm \
+			"${S}"/utils/images/logo-180.xpm
+		cp \
+			"${FILESDIR}"/logo-180.xpm "${S}"/utils/images/logo-180.xpm	
+	fi
+	
 	if use ppc || use ppc64; then
 		filter-flags -maltivec -mabi=altivec
 		append-flags -U__VEC__
