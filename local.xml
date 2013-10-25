@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
+<repositories xmlns="" version="1.0">
+  <repo quality="experimental" status="unofficial">
+    <name><![CDATA[muewei]]></name>
+    <description><![CDATA[MarcMW Overlay]]></description>
+    <homepage>https://github.com/MarcMW/gentoo-overlay</homepage>
+    <owner>
+      <email>kontakt@informaficker.org</email>
+      <name><![CDATA[Marc Müller-Weinhardt]]></name>
+    </owner>
+    <source type="git">https://github.com/MarcMW/gentoo-overlay.git</source>
+    <feed></feed>
+  </repo>
+</repositories>
