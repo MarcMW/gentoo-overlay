@@ -1,6 +1,7 @@
 # Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: /var/cvsroot/gentoo-x86/x11-misc/xscreensaver/xscreensaver-5.22.ebuild,v 1.11 2013/09/07 20:13:10 ago Exp $
+# Modified by Marc Müller-Weinhardt <kontakt@informaficker.org>
 
 EAPI=5
 inherit autotools eutils flag-o-matic multilib pam

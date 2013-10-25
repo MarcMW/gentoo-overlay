@@ -1,5 +1,15 @@
 /* XPM */
 
+/* The "g" logo is a trademark of Gentoo Foundation, Inc.
+   Copyright Gentoo Foundation, Inc.
+
+   This project is not part of the Gentoo Project and 
+   is not directed or managed by Gentoo Foundation, Inc.
+   
+   Maintained by Marc Müller-Weinhardt <kontakt@informaficker.org>
+ */
+ 
+
 static const char * const logo_180_xpm[] = {
 /* columns rows colors chars-per-pixel */
 "180 180 45 1 ",
